@@ -1,0 +1,40 @@
+.navbar {
+  display: none;
+}
+
+.links {
+  flex: 1;
+  margin-left: calc(16px * -1);
+  margin-right: calc(16px * -1);
+}
+
+.linksInner {
+  /* padding-top: 32px;
+  padding-bottom: 32px; */
+}
+
+@media screen and (max-width: 767px) {
+  .navbar {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 1000;
+  }
+
+  /* .navbar__desktop {
+    display: none;
+  } */
+
+  .links {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .linksInner {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}

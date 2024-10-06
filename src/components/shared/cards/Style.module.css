@@ -1,0 +1,25 @@
+.name {
+  font-size: 16px;
+  color: #212a36;
+  align-self: center;
+  min-height: 46px;
+}
+
+.price {
+  color: #1988ec;
+  font-size: 20px;
+  font-weight: bold;
+  align-self: center;
+}
+
+@media (max-width: 768px) {
+  .name {
+    font-size: 12px;
+    min-height: 40px;
+  }
+
+  .price {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}

@@ -1,0 +1,8 @@
+.layout {
+  background: var(--mantine-color-grey-0);
+  padding-top: calc(var(--app-shell-header-height) + var(--mantine-spacing-sm));
+  padding-left: var(
+    --_main-padding-left,
+    calc(var(--app-shell-navbar-offset, 0px) + var(--app-shell-padding) + var(--mantine-spacing-sm))
+  );
+}

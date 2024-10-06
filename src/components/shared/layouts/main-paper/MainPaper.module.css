@@ -1,0 +1,13 @@
+.paper {
+  min-height: calc(
+    100vh - var(--app-shell-header-height) - var(--mantine-spacing-sm)
+  );
+  border-radius: rem(16px) rem(0) rem(0) rem(16px);
+  padding: var(--mantine-spacing-lg) 16px 32px;
+  overflow: hidden;
+}
+
+.scroll {
+  width: 100%;
+  height: 100%;
+}
